@@ -11,12 +11,13 @@ Substitute the values in the distance formula
 ### Step 4: print the result.
 ### Step 5:End the programming. 
 ### PROGRAM:
-  import numpy as np
+```
+import numpy as np
 p1=[10,6]
 p2=[4,2]
 distance=np.sqrt(((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2))
 print("{:.2f}".format(distance))
-
+```
 
 ### OUTPUT:
 ![output](/dis/imgg.png)
